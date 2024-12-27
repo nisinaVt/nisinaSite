@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>似科研究所</title>
     <BODY ONCONTEXTMENU="return false;"></BODY>
     <style type="text/css">
@@ -15,8 +16,10 @@
         }
         
  
+  
+        
         /*　画像　*/
-        .Header{margin-left: 0.0px; } 
+        .Header{margin-left: 0.0px;} 
         .Youtube_icon{margin-left: 50.0px; margin-top: 50.0px;} 
         .Youtube_prof{margin-left: 20.0px; margin-top: 50.0px;} 
         .Twitter_icon{margin-left: 50.0px; margin-top: 50.0px;} 
@@ -28,6 +31,16 @@
         .Niko_icon{margin-left: 50.0px; margin-top: 50.0px;} 
         .Niko_prof{margin-left: 20.0px; margin-top: 50.0px;}
 
+		.icons{
+			width: calc(100px * 1.5);
+			height: calc(100px * 1.5)
+		}
+		
+		.profs{
+			width: calc(500px * 1.5);
+			height: calc(100px * 1.5)
+		}
+
     </style>
 </head>
 <body>
@@ -38,30 +51,30 @@
     <img class="Header contain" src="img/似科研究所ヘッダー.jpg" alt="似科研究所ヘッダー.jpg"/>
 
     <a href="https://www.youtube.com/channel/UCpbEs4_Hbk6Qz_FXw065z0Q">
-        <img class="Youtube_icon contain" src="img/youtube_icon.jpg" alt="youtube_icon.jpg" />
-        <img class="Youtube_prof contain" src="img/youtube_prof.jpg" alt="youtube_prof.jpg" /><br>
+        <img class="Youtube_icon icons" src="img/youtube_icon.jpg" alt="youtube_icon.jpg" />
+        <img class="Youtube_prof profs" src="img/youtube_prof.jpg" alt="youtube_prof.jpg" /><br>
     </a>
 
     <a href="https://twitter.com/NisinaVtuber">
-        <img class="Twitter_icon contain" src="img/Twitter_icon.jpg" alt="Twitter_icon.jpg" />
-        <img class="Twitter_prof contain" src="img/Twitter_prof.jpg" alt="Twitter_prof.jpg" /><br>
+        <img class="Twitter_icon icons" src="img/Twitter_icon.jpg" alt="Twitter_icon.jpg" />
+        <img class="Twitter_prof profs" src="img/Twitter_prof.jpg" alt="Twitter_prof.jpg" /><br>
     </a>
 
     <a href="https://www.amazon.co.jp/hz/wishlist/ls/148MTNZNEHY9F?ref_=wl_share">
-        <img class="Amazon_icon contain" src="img/Amazon_icon.jpg" alt="Amazon_icon.jpg" />
-        <img class="Amazon_prof contain" src="img/Amazon_prof.jpg" alt="Amazon_prof.jpg" /><br>
+        <img class="Amazon_icon icons" src="img/Amazon_icon.jpg" alt="Amazon_icon.jpg" />
+        <img class="Amazon_prof profs" src="img/Amazon_prof.jpg" alt="Amazon_prof.jpg" /><br>
     </a>
 
 
     <a href="https://www.pixiv.net/users/79812997">
-        <img class="Pixiv_icon contain" src="img/Pixiv_icon.jpg" alt="Pixiv_icon.jpg" />
-        <img class="Pixiv_prof contain" src="img/Pixiv_prof.jpg" alt="Pixiv_prof.jpg" /><br>
+        <img class="Pixiv_icon icons" src="img/Pixiv_icon.jpg" alt="Pixiv_icon.jpg" />
+        <img class="Pixiv_prof profs" src="img/Pixiv_prof.jpg" alt="Pixiv_prof.jpg" /><br>
     </a>
 
 
     <a href="https://seiga.nicovideo.jp/user/illust/126952092">
-        <img class="Niko_icon contain" src="img/Niko_icon.jpg" alt="Niko_icon.jpg" />
-        <img class="Niko_prof contain" src="img/Niko_prof.jpg" alt="Niko_prof.jpg" /><br>
+        <img class="Niko_icon icons" src="img/Niko_icon.jpg" alt="Niko_icon.jpg" />
+        <img class="Niko_prof profs" src="img/Niko_prof.jpg" alt="Niko_prof.jpg" /><br>
     </a>
     <!-------------------------------------------------------------------------------------
     画像リサイズ（JavaScript）
